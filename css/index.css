@@ -140,3 +140,90 @@ img {
   transform: scale(1.1);
   transition: all 0.5s ease;
 }
+
+/*CONTACT*/
+#contact {
+  position: relative;
+  z-index: 2;
+}
+
+#contact::after {
+  content: "";
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(
+      rgba(78, 174, 212, 0.304),
+      rgba(78, 174, 212, 0.452)
+    ),
+    url(/img/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#contact .form-control {
+  border-radius: 0;
+}
+
+#contact .form-control:focus {
+  box-shadow: none;
+  border-color: #4e57d4;
+}
+
+/*FOOTER*/
+
+footer {
+  padding-top: 120px;
+}
+
+.footer-top {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer li,
+footer p,
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .line {
+  width: 40px;
+  height: 4px;
+  background-color: #e3e4f3;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.footer-bottom {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+}
+
+.social-icons a:hover {
+  background-color: #e3e4f3;
+  color: white;
+}
+
+.footer-logo {
+  width: 220px;
+  height: 150px;
+}
