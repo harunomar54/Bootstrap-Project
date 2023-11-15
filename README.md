@@ -1,2 +1,3 @@
-# Bootstrap-Project showcasing my fictious Data Analysis conulsting company
-# Tech used include Javascript, HTML, CSS and Bootstrap
+# Bootstrap-Project 
+Showcasing my fictious Data Analysis Conulsting company
+Tech used include Javascript, HTML, CSS and Bootstrap
